@@ -1,4 +1,5 @@
 [![.NET](https://github.com/Aerafaal/dofus-retro/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Aerafaal/dofus-retro/actions/workflows/dotnet.yml)
+[![.NET](https://github.com/Aerafaal/dofus-retro/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Aerafaal/dofus-retro/actions/workflows/codeql-analysis.yml)
 
 # Dofus Retro
 
