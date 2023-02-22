@@ -1,4 +1,4 @@
-name: "dotnet"
+name: ".NET"
 
 on:
   push:
