@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{34C6EA85-0D51-41DA-A807-C38FAAEB034B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{350CFF92-6D5F-4D3A-8958-EE16CE48B969}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{68351510-7CF0-4EEA-AB10-71B4BC5B531C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E79FEF9E-FC36-4C5C-8DDC-75BF6062F6A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dofus.Core", "libs\Dofus.Core\Dofus.Core.csproj", "{B9667F71-C733-4F4A-923F-24FF307A0831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dofus.SourceGenerators", "libs\Dofus.SourceGenerators\Dofus.SourceGenerators.csproj", "{E6EBF4BF-36A8-437E-8953-F2E8426699F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dofus.Servers.AuthServer", "src\Dofus.Servers.AuthServer\Dofus.Servers.AuthServer.csproj", "{6828E4E5-6F4A-442C-B087-4756FBF0F868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dofus.Servers.GameServer", "src\Dofus.Servers.GameServer\Dofus.Servers.GameServer.csproj", "{5501754E-966D-4050-9D4A-A4C32340B795}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9667F71-C733-4F4A-923F-24FF307A0831} = {34C6EA85-0D51-41DA-A807-C38FAAEB034B}
+		{E6EBF4BF-36A8-437E-8953-F2E8426699F6} = {34C6EA85-0D51-41DA-A807-C38FAAEB034B}
+		{6828E4E5-6F4A-442C-B087-4756FBF0F868} = {350CFF92-6D5F-4D3A-8958-EE16CE48B969}
+		{5501754E-966D-4050-9D4A-A4C32340B795} = {350CFF92-6D5F-4D3A-8958-EE16CE48B969}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9667F71-C733-4F4A-923F-24FF307A0831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9667F71-C733-4F4A-923F-24FF307A0831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9667F71-C733-4F4A-923F-24FF307A0831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9667F71-C733-4F4A-923F-24FF307A0831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6EBF4BF-36A8-437E-8953-F2E8426699F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6EBF4BF-36A8-437E-8953-F2E8426699F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6EBF4BF-36A8-437E-8953-F2E8426699F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6EBF4BF-36A8-437E-8953-F2E8426699F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6828E4E5-6F4A-442C-B087-4756FBF0F868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6828E4E5-6F4A-442C-B087-4756FBF0F868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6828E4E5-6F4A-442C-B087-4756FBF0F868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6828E4E5-6F4A-442C-B087-4756FBF0F868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5501754E-966D-4050-9D4A-A4C32340B795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5501754E-966D-4050-9D4A-A4C32340B795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5501754E-966D-4050-9D4A-A4C32340B795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5501754E-966D-4050-9D4A-A4C32340B795}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
