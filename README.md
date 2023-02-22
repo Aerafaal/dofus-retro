@@ -25,6 +25,10 @@ If you have suggestions for how Dofus Retro could be improved, or want to report
 
 For more, check out the [Contributing Guide][contributing].
 
+## Changelog
+
+Each modification is referenced in the [Changelog][changelog]
+
 ## License
 
 [MIT][license]
@@ -36,5 +40,6 @@ For more, check out the [Contributing Guide][contributing].
 [dotnet]: https://dotnet.microsoft.com/en-us/download/dotnet/7.0
 [contributing]: CONTRIBUTING.md
 [license]: LICENSE
+[changelog]: CHANGELOG.md
 [pgsql]: https://www.postgresql.org/download/
 [rider]: https://www.jetbrains.com/fr-fr/rider/
